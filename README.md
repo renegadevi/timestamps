@@ -46,12 +46,9 @@ chmod +x main.py
 ```
 
 ### Windows (8.1 + 10)
-1. Download and install Python 3 (Check "Add Python 3.6 to PATH")
 https://www.python.org/downloads
-
-2. Open command prompt as Administrator and type:
-`py -m pip install PyQt5 pendulum`
-
+1. Download and install Python 3 (Check "Add Python 3.6 to PATH")
+2. Open command prompt as Administrator and type: `py -m pip install PyQt5 pendulum`
 3. Download Timestamps as a zip and extract the folder
 4. Open Timestamps folder, navigate to main.py file and double click it to run.
 5. Rename main.py to main.pyw (to remove the command prompt in the background)
@@ -59,9 +56,7 @@ https://www.python.org/downloads
 ***Optional: Create a shortcut***
 
 1. Right click on the desktop, 'New -> Create shortcut'
-2. navigate and select `main.pyw`
-Enter "Timestamps" as name of the shortcut.
-
+2. navigate and select `main.pyw`, press enxt and enter "Timestamps" as name of the shortcut.
 3. Right-click on the shortcut and choose 'preferences'
 4. Click 'Change icon',  navigate and select the file 'timestamps/resouces/icons/icon.ico'
 5. Press OK, Apply then OK.
