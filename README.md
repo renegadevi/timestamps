@@ -22,7 +22,7 @@ How to install
 -------------
 
 ### Prerequisites
-- Python 3 (Tested on 3.6)
+- Python 3 (Tested on 3.6) (https://www.python.org/downloads)
 - Homebrew (Brew) (On Mac) (https://brew.sh/)
 
 
@@ -38,7 +38,7 @@ chmod +x timestamps/main.py
 
 ### MacOS 10.13 (High Sierra)
 ```bash
-sudo homebrew install python3 pyqt5 qt5 git
+sudo brew install python3 pyqt5 qt5 git
 git clone https://gitlab.com/renegadevi/Timestamps.git
 cd Timestamps/timestamps
 chmod +x main.py
@@ -46,8 +46,7 @@ chmod +x main.py
 ```
 
 ### Windows (8.1 + 10)
-https://www.python.org/downloads
-1. Download and install Python 3 (Check "Add Python 3.6 to PATH")
+1. Download and install Python3 (Check "Add Python 3.6 to PATH") https://www.python.org/downloads
 2. Open command prompt as Administrator and type: `py -m pip install PyQt5 pendulum`
 3. Download Timestamps as a zip and extract the folder
 4. Open Timestamps folder, navigate to main.py file and double click it to run.
