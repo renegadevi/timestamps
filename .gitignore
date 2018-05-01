@@ -101,5 +101,5 @@ ENV/
 # MacOS
 .DS_Store
 
-# Remove project files that's in used
+# Remove project files (temp)
 project-resources/
