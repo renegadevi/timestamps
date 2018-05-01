@@ -22,8 +22,8 @@ How to install
 -------------
 
 ### Prerequisites
-Python 3 (Tested on 3.6)
-Homebrew (Brew) (On Mac)
+- Python 3 (Tested on 3.6)
+- Homebrew (Brew) (On Mac) (https://brew.sh/)
 
 
 ### Ubuntu 18.04 LTS
@@ -69,9 +69,9 @@ Enter "Timestamps" as name of the shortcut.
 
 Built with Open-source
 -------------
-Python 3 – https://github.com/python
-PyQt5 – https://github.com/pyqt
-Pendulum – https://github.com/sdispater/pendulum
+- Python 3 (https://github.com/python)
+- PyQt5 (https://github.com/pyqt)
+- Pendulum (https://github.com/sdispater/pendulum)
 
 
 Licence
