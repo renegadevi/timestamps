@@ -1,7 +1,9 @@
 [Desktop Entry]
 Version=1.0.0
 Name=Timestamps
+Name[sv]=Tidsstämpeln
 Comment=A quick to use cross-platform time stamp software.
+Comment[sv]=En snabb och enkel tidstämpel
 Exec=/usr/share/timestamps/main.py
 Path=/usr/share/timestamps/
 Icon=/usr/share/timestamps/resources/icons/icon.png
