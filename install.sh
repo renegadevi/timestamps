@@ -23,12 +23,12 @@ else
 
     echo
     echo "----- Installing requirements"
-    python3 -m pip install -r timestamps/requirements.txt
+    python3 -m pip install -r timestamps-temp/requirements.txt
 
     echo
     echo "----- Installing Timestamps"
-    sudo cp -r timestamps/timestamps /usr/share
-    sudo cp timestamps/timestamps.desktop /usr/share/applications
+    sudo cp -r timestamps-temp/timestamps /usr/share
+    sudo cp timestamps-temp/timestamps.desktop /usr/share/applications
 
     echo
     echo "----- Clean up after install"
