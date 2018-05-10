@@ -5,6 +5,7 @@ import os
 # Application variables
 APP_VERSION = "1.0.0"
 APP_NAME = "Timestamps"
+APP_DESCRIPTION = "A quick to use cross-platform time stamp software."
 APP_AUTHORS = ["Philip Andersen"]
 APP_LICENSE = "GPLv3"
 APP_COPYRIGHT = "Copyright © 2018 Philip Andersen"
