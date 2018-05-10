@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0.0
+Name=Timestamps
+Comment=A quick to use cross-platform time stamp software.
+Exec=/usr/share/timestamps/main.py
+Path=/usr/share/timestamps/
+Icon=/usr/share/timestamps/resources/icons/icon.png
+Terminal=false
+Type=Application
+Categories=Office;Utility;
