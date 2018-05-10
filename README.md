@@ -15,28 +15,22 @@ For more screenshots, check the *screenshots* folder.
 
 TODOs
 -------------
-- Software packaging
+- Software packaging (Mac/Windows binary?)
 - Support for more languages
 
 How to install
 -------------
 
-### Prerequisites
-- Python 3 (Tested on 3.6) (https://www.python.org/downloads)
-- Homebrew (Brew) (On Mac) (https://brew.sh/)
-
-
 ### Ubuntu 18.04 LTS
 ```bash
-sudo apt install python3-pip git
-git clone https://gitlab.com/renegadevi/Timestamps.git
-cd Timestamps
-python3 -m pip install -r requirements.txt
-chmod +x timestamps/main.py
-./timestamps/main.py
+wget -O - https://gitlab.com/renegadevi/timestamps/raw/master/install.sh | bash
 ```
 
 ### MacOS 10.13 (High Sierra)
+
+#### Prerequisites
+- Homebrew (Brew) (On Mac) (https://brew.sh/)
+
 ```bash
 sudo brew install python3 pyqt5 qt5 git
 git clone https://gitlab.com/renegadevi/Timestamps.git
@@ -46,6 +40,7 @@ chmod +x main.py
 ```
 
 ### Windows (8.1 + 10)
+
 1. Download and install Python3 (Check "Add Python 3.6 to PATH") https://www.python.org/downloads
 2. Open command prompt as Administrator and type: `py -m pip install PyQt5 pendulum`
 3. Download Timestamps as a zip and extract the folder
